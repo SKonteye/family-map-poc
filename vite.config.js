@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 5173 // You can change this port if needed
+    port: 5173, // You can change this port if needed
+    allowedHosts: ['family-tree-18x8.onrender.com']
   }
 });
